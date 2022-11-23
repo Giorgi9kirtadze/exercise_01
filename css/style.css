@@ -1,0 +1,96 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    text-decoration: none;
+}
+
+a {
+    color: #d6001c;
+}
+
+li a {
+    display: block;
+    padding: 12px;    
+}
+
+header {
+    padding-top: 45px;
+    color: #d6001c;
+    font: 15px;
+}
+
+h1 { 
+    padding-left: 400px;
+    padding-top: 60px;
+    font-size: 72px;
+    color: #d6001c;
+}
+h2 {
+    padding-left: 545px;
+    padding-top: 40px;
+    font-size: 40px;
+    color: #d6001c;
+
+}
+
+h3 {
+    padding-left: 545px;
+    padding-top: 40px;
+    font-size: 20px;
+    color: #d6001c;
+}
+
+img {
+    padding-left: 85px;
+    padding-top: 37px;
+}
+
+.main-section {
+ width: 30%;
+ height: 30%;
+ padding-left: 9%;
+}
+
+.cof:hover {
+    opacity: 0.5;
+    color: #d6001c;
+}
+
+
+.son:hover {
+    opacity: 0.5;
+    
+}
+
+
+.wor:hover {
+    opacity: 0.5;
+}
+
+.mou:hover {
+    opacity: 0.5;
+}
+
+.lig:hover { 
+    opacity: 0.5;
+}
+
+.for:hover {
+    opacity: 0.5;
+}
+
+.main:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
