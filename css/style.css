@@ -1,13 +1,13 @@
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
+    
 }
 
 li {
     float: left;
     text-decoration: none;
+    
 }
 
 a, header, h1, h2, h3 {
@@ -16,7 +16,11 @@ a, header, h1, h2, h3 {
 
 li a {
     display: block;
-    padding: 12px;    
+    margin: 14px;
+}
+
+.main {
+    margin-top: 50px;
 }
 
 header {
@@ -25,13 +29,13 @@ header {
 }
 
 h1 { 
-    padding-left: 400px;
-    padding-top: 60px;
+    padding-left: 390px;
+    padding-top: 50px;
     font-size: 72px;
 }
 h2 {
-    padding-left: 545px;
-    padding-top: 40px;
+    margin-left: 545px;
+    margin-top: 40px;
     font-size: 40px;
 
 }
@@ -49,7 +53,7 @@ img {
 
 
 .cof:hover, .son:hover, .wor:hover, .mou:hover, .lig:hover, .for:hover, .main:hover {
-    opacity: 0.5;
+    opacity: 0.7;
     cursor: pointer;
 }
 
@@ -59,10 +63,39 @@ img {
     flex-wrap: wrap;
 }
 .image-wrapper {
-    height: 300px;
-    width: 200px;
+    height: 250px;
+    width: 180px;
     margin: 10px;
+    margin-top: 60px;
+    background-color: #d6001c;
+    border: #d6001c outset 1px;
+}
+
+.border-horizontal {
+    border: #d6001c solid 1px;
+    height: 2px;
+    width: 900px;
+    background-color: #d6001c;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 15%;
+
+}
+
+.main {
+    border: #d6001c outset 2px;
+    height: 450px;
+    width: 1250px;
+    margin-left: 0.5%;
+    
 }
 
 
+
+
+
+
+
+
+ 
 
