@@ -102,9 +102,32 @@ img {
     
 }
 
-nav {
-  
+.workingjob {
+  border: #d6001c outset 1px;
+  height: 450px;
+  width: 65%;
+  margin: 0 15%;
+  margin-top: 50px;
 }
+
+.contact {
+    border: #c3c1c1 outset 1px;
+    height: 450px; 
+    width: 35%;
+    margin: 0 15%;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+
+.background-cotact {
+    background-color: #e7e7e7;
+    height: 450px;
+    width: 31%;
+    margin: 0 15%;
+    position: absolute;
+    margin-top: 50px;
+}
+
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones */
@@ -138,6 +161,10 @@ nav {
         display: flex;
         justify-content: center;
         
+    }
+
+    .workingjob {
+        width: 70%;
     }
 
 }
