@@ -1,6 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-
+    
+}
+div {
+    display: flex;
+    justify-content: center;
 }
 
 ul {
@@ -35,18 +39,25 @@ h1 {
     
     margin-top: 50px;
     font-size: 72px;
+    display: flex;
+    justify-content: center;
 }
 h2 {
     
     margin-top: 40px;
     font-size: 40px;
-
+    display: flex;
+    justify-content: center;
+   
 }
 
 h3 {
     
     margin-top: 40px;
+    margin-bottom: 25px;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -86,6 +97,7 @@ img {
 .main {
     border: #d6001c outset 2px;
     height: 450px;
+    width: 96%;
     margin: 0 2%;
     
 }
@@ -116,6 +128,16 @@ nav {
     h2 {
         display: flex;
         justify-content: center;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+    }
+    h3 {
+        display: flex;
+        justify-content: center;
+        
     }
 
 }
